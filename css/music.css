@@ -127,4 +127,8 @@
   .music-sect {
     padding: 15px 0;
   }
+  
+  .img-container img {
+    bottom: 70px;
+  }
 }
