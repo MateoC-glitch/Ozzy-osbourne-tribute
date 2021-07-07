@@ -1,0 +1,135 @@
+/* Tag Selectors */
+body {
+  margin: 0;
+  font-family: "Titillium Web", sans-serif;
+}
+
+h1 {
+  color: #fcc308;
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nosifer", cursive;
+}
+
+center {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Class Selctors */
+.navbar-brand {
+  font-family: "Nosifer", cursive;
+}
+
+.parallax-1,
+.parallax-2,
+.parallax-3,
+.parallax-4 {
+  position: relative;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-1 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/0e/OzzyOsbourne-1.jpg");
+}
+
+.parallax-2 {
+  background-image: url("https://live.staticflickr.com/2704/5797890249_487c5529bf_z.jpg");
+}
+
+.parallax-3 {
+  background-image: url("https://outsider.com/wp-content/uploads/2021/02/Webp.net-resizeimage-2021-02-19T115639.447.jpg");
+}
+
+.parallax-4 {
+  background-image: url("https://www.ilikeyouroldstuff.com/sites/g/files/g2000009801/files/ozzy-osbourne-90s.jpg");
+}
+
+.light {
+  color: #fff;
+}
+
+.parallax-txt {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+.sect-heading {
+  padding: 0 0 30px 0;
+}
+
+.external-link {
+  text-decoration: none;
+  color: #fcc308;
+  padding: 10px;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+.external-link:hover {
+  color: #ff0404;
+}
+
+.inline-link {
+  color: #fcc308;
+}
+
+.inline-link:hover {
+  color: #ff0404;
+}
+
+.copyright {
+  padding: 20px 0;
+}
+
+.btn {
+  margin: 0 4px;
+}
+
+/* ID Selctors */
+#about,
+#legacy,
+#performance,
+#footer {
+  padding: 4%;
+}
+
+#title {
+  font-family: "Titillium Web", sans-serif;
+}
+
+#back-to-top {
+  color: #000;
+  background-color: #fcc308;
+  border-radius: 15px;
+  position: fixed;
+  padding: 5px;
+  bottom: 10px;
+  right: 10px;
+  width: auto;
+  height: auto;
+  z-index: 10;
+}
+
+#footer {
+  background-color: #000;
+}
